@@ -1,0 +1,5 @@
+ fpc archivo.pas
+Y para echar a andar el ejecutable:
+
+# ./archivo
+
