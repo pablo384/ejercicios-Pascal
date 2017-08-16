@@ -132,7 +132,7 @@ begin
 	writeln('#### Cuanto desea abonarle? ###');
 	writeln('###############################');
 	readln(abono);
-	arMontoF[pos]:=arMontoF[pos]-abono
+	arMontoF[pos]:=arMontoF[pos]-abono;
 	if arMontoF[pos]<1 then
 	begin
 		writeln('################################');
